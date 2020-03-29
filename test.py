@@ -75,4 +75,3 @@ async def unmute(ctx, member : discord.Member):
 
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
-#NjkzNDAzMjk1NDY4NzQ4ODAw.Xn8kMQ.rxxMcXkoYQKMnp-r2jxnbJYwfdk
