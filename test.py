@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 
 client = commands.Bot(command_prefix = '/')
@@ -72,6 +73,6 @@ async def unmute(ctx, member : discord.Member):
 
 
 
-
-client.run('NjkzNDAzMjk1NDY4NzQ4ODAw.Xn8kMQ.rxxMcXkoYQKMnp-r2jxnbJYwfdk')
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
 #NjkzNDAzMjk1NDY4NzQ4ODAw.Xn8kMQ.rxxMcXkoYQKMnp-r2jxnbJYwfdk
